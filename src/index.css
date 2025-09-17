@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* --breakpoint-sm: 600px; */
+
+
+}
+
+
+
+
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox dành cho firefox mấy cái dưới tương tự */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.my-element {
+  -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.3); /* Chrome, Safari */
+  -moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.3);    /* Firefox */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3); 
+       /* Chuẩn CSS */
+}
+
+div[contenteditable]:empty::before {
+  content: attr(data-placeholder);
+  color: #aaa;
+  pointer-events: none;
+}
+
+
+
