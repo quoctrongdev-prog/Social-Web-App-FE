@@ -79,6 +79,7 @@ const mutation = useMutation({                    //truyền id và dữ liệu 
             value={text.desc}
             name="desc"
             onChange={handleChange}
+            placeholder="Bạn đang nghĩ gì ?"
           />
           <div className="flex items-center justify-center mt-12">
             <button 
