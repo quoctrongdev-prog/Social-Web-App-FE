@@ -1,4 +1,5 @@
 # Cách cài đặt file
-1. npm init
-2. npm i
-3. npm run dev
+1. Đặt tên  file là my-project
+2. npm init
+3. npm i
+4. npm run dev
